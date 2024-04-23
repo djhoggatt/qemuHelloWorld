@@ -45,7 +45,7 @@ static int print(char *str)
 {
     if(str == NULL)
     {
-	    return ERR_NULL;
+        return ERR_NULL;
     }
 
     int retVal = ERR_NOERR;
