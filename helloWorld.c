@@ -70,13 +70,13 @@ static int print(char *str)
 void main(void)
 {
     int err = print("Hello world!\n");
-	
-	while(!err)
-	{
-		// Do nothing
-	}
-	
-	// Critical error, should not get here.
+
+    while(!err)
+    {
+        // Do nothing
+    }
+
+    // Critical error, should not get here.
 }
 
 
