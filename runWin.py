@@ -22,7 +22,7 @@ ASM_FILES = ["startup"]
 C_FILES = ["helloWorld"]
 LINKER_FILE = "linker.ld"
 
-TOOLCHAIN_DIR = "C:\\SysGCC\\arm-eabi\\arm-none-eabi\\bin\\"
+TOOLCHAIN_DIR = "C:\\SysGCC\\arm-eabi\\arm-none-eabi\\bin\\" # https://gnutoolchains.com/download/
 COMPILER_DIR = "C:\\SysGCC\\arm-eabi\\bin\\"
 
 BIN_NAME = "helloWorld"
